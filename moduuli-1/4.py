@@ -1,4 +1,3 @@
-import math
 kokonaisluku_1 = input('Anna kokonaisluku 1: ')
 kokonaisluku_2 = input('Anna kokonaisluku 2: ')
 kokonaisluku_3 = input('Anna kokonaisluku 3: ')
