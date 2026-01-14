@@ -5,6 +5,7 @@ kokonaisluku_3 = input('Anna kokonaisluku 3: ')
 kokonaisluku3 = float(kokonaisluku_3)
 kokonaisluku2 = float(kokonaisluku_2)
 kokonaisluku1 = float(kokonaisluku_1)
+
 summa = kokonaisluku1 + kokonaisluku2 + kokonaisluku3
 tulo = kokonaisluku1 * kokonaisluku2 * kokonaisluku3
 
