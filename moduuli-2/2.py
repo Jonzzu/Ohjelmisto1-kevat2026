@@ -1,6 +1,4 @@
 import math
-
-sade = float(input("Anna ympyrän säde: "))
-pinta_ala = math.pi * sade ** 2
-
-print("Ympyrän pinta-ala on:", pinta_ala)
+radius = float(input('Enter the radius of the circle: '))
+area = math.pi * radius ** 2
+print("The area of the circle is",area )

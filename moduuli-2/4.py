@@ -1,16 +1,11 @@
-kokonaisluku_1 = float(input('Anna kokonaisluku 1: '))
-kokonaisluku_2 = float(input('Anna kokonaisluku 2: '))
-kokonaisluku_3 = float(input('Anna kokonaisluku 3: '))
+num1 = int(input('Enter the first integer: '))
+num2 = int(input('Enter the second integer: '))
+num3 = int(input('Enter the third integer: '))
 
-summa = kokonaisluku_1 + kokonaisluku_2 + kokonaisluku_3
-tulo = kokonaisluku_1 * kokonaisluku_2 * kokonaisluku_3
+sum_of_numbers = num1 + num2 + num3
+product_of_numbers = num1 * num2 * num3
+average_of_numbers = sum_of_numbers / 3
 
-print('Lukujen summa: ')
-print(summa)
-print('Lukujen tulo: ')
-print(tulo)
-print('Lukujen keskiarvo: ')
-print(summa/3)
-
-
-
+print(f'The sum of the numbers: {sum_of_numbers}')
+print(f'The product of the numbers: {product_of_numbers}')
+print(f'The average of the numbers: {average_of_numbers}')

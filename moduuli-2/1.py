@@ -1,2 +1,3 @@
-kayttaja = input('Anna nimesi: ')
-print("Terve, " + kayttaja + "!")
+name = input('Give name: ')
+greeting = f'Hello, {name}!'
+print(greeting)
