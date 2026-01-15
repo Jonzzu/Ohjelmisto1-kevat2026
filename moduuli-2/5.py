@@ -1,6 +1,6 @@
-talents = float(input('Enter talents:'))
-pounds = float(input('Enter pounds:'))
-lots = float(input('Enter lots:'))
+talents = float(input('Enter talents: '))
+pounds = float(input('Enter pounds: '))
+lots = float(input('Enter lots: '))
 
 grams_per_lot = 13.3
 lots_per_pound = 32
