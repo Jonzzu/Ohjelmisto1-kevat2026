@@ -6,4 +6,4 @@ while gallons >= 0:
     if gallons < 0:
         break
     liters = gallons_to_liters(gallons)
-    print(f'{gallons:.2f} American gallons is {liters:.2f} liters.')
+    print(f'{gallons:.1f} American gallons is {liters:.2f} liters.')
