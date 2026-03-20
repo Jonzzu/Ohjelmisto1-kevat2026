@@ -1,11 +1,11 @@
 class Elevator:
-    def __init__(self, lowest_floor, highest_floor):
-        self.lowest_floor = lowest_floor
-        self.highest_floor = highest_floor
-        self.current_floor = lowest_floor
+    def __init__(self, min_floor, max_floor):
+        self.min_floor = min_floor
+        self.max_floor = max_floor
+        self.current_floor = min_floor
 
     def go_to_floor(self, floor):
-        if floor < self.lowest_floor or floor > self.highest_floor:
+        if floor < self.min_floor or floor > self.max_floor:
             return
 
         if self.current_floor < floor:
