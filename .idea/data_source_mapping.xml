@@ -2,5 +2,6 @@
 <project version="4">
   <component name="DataSourcePerFileMappings">
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/2534290f-4066-4f41-b959-8b7ac5c3ee03/console.sql" value="2534290f-4066-4f41-b959-8b7ac5c3ee03" />
+    <file url="file://$PROJECT_DIR$/moduuli-8/3.py" value="2534290f-4066-4f41-b959-8b7ac5c3ee03" />
   </component>
 </project>
