@@ -1,18 +1,14 @@
 import requests
-import os
-from dotenv import load_dotenv
-load_dotenv()
 
-city = input("Enter municipality name: ")
+pyyntö = "https://api.chucknorris.io/jokes/random"
 
-API_KEY = os.getenv("Open_Weather_Map_API")
-url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
+try:
+    vastaus = requests.get(pyyntö)
+    if vastaus.status_code == 200:
+        json_vastaus = vastaus.json()
+        print(json_vastaus["value"])
+    else:
+        print(f"Virhe: HTTP-statuskoodi {vastaus.status_code}")
 
-response = requests.get(url)
-data = response.json()
-
-description = data["weather"][0]["description"]
-temperature = data["main"]["temp"]
-
-print(f"Weather: {description}")
-print(f"Temperature: {temperature} Celsius")
+except requests.exceptions.RequestException as e:
+    print("Hakua ei voitu suorittaa.")
