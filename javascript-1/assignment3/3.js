@@ -1,0 +1,12 @@
+const number1Str = prompt('Anna ensimmäinen numero.');
+const  number2Str = prompt('Anna toinen numero. ');
+const number3Str = prompt('Anna kolmas numero.');
+const number1 = +number1Str;
+const number2 = +number2Str;
+const number3 = +number3Str;
+const sumOfNumbers = number1 + number2 + number3;
+const productOfNumbers = number1 * number2 * number3;
+const averageOfNumbers = sumOfNumbers / 3;
+document.querySelector('#sumOfNumbers').innerHTML = sumOfNumbers;
+document.querySelector('#productOfNumbers').innerHTML = productOfNumbers;
+document.querySelector('#averageOfNumbers').innerHTML = averageOfNumbers;
