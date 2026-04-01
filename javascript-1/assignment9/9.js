@@ -1,11 +1,11 @@
 function isPrime(n) {
-    if (n < 2) return false;          // 0 and 1 are not prime
+    if (n < 2) return false;
 
     for (let i = 2; i <= Math.sqrt(n); i++) {
-        if (n % i === 0) return false; // divisible → not prime
+        if (n % i === 0) return false;
     }
 
-    return true;                       // no divisors found → prime
+    return true;
 }
 let number = Number(prompt('Give integer.'));
 
