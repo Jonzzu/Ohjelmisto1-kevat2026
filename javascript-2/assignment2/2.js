@@ -10,10 +10,10 @@ sortedNamesOfParticipants.sort();
 
 const listElement = document.querySelector('#sortedParticipants');
 
-let html = '<ul>';
+let html = '<ol>';
 for (const name of sortedNamesOfParticipants) {
     html += `<li>${name}</li>`;
 }
-html += '</ul>';
+html += '</ol>';
 
 listElement.innerHTML = html;
